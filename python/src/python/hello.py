@@ -11,4 +11,5 @@ driver = webdriver.Chrome("/Users/gaya/git/python/python/chromedriver")
 driver.get("http://www.baidu.com")
 driver.find_element_by_id("kw").send_keys("test")
 driver.find_element_by_id("su").click()
+
 driver.quit()
